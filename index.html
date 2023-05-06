@@ -27,20 +27,28 @@
 
   <body id="page-top">
 
-  
+
     <!-- Header -->
     <header class="masthead">
       <div class="container">
-        <div class="intro-text" style="padding-top=50px">
-            <img src="img/foto.png" width="200" height="200" alt="">
+        <div class="intro-text" style="padding-top=50px" >
+          <div  class="wrapper">
+            <div class="clipped-image" >
+               <div class="mask">
+                 <img src="img/foto.jpg" class="img-circle" width="50px" height="50px" alt="">
+               </div>
+            </div>
+          </div>
+            <!-- <img src="img/foto.jpg" class="img-circle" width="200" height="200" alt=""> -->
           <div class="intro-heading text-uppercase">FAIZAL IMAM</div>
-            <div class="intro-lead-in">Fresh Graduate - Informatics <br>Padjadjaran University</div>
+            <div class="intro-lead-in">Data Analyst | Data Enthusiast</div>
+            <p  style="color:white; font-size: 18px; font-style: bold" >I am a data analyst. I have been working on data for four years. In support of my work, I have studied a variety of data processing and visualization tools, including Google Data Studio, Tableau, Python and Google Analytics. I keep developing my data analytics skills by taking classes and give talks at knowledge-sharing events about basic data analysts, and also analyze other interesting things outside of my work. I am confident that I have the capacity to fully understand the flow of business. So that when there are business issues, I can provide what stakeholders need to make decisions. </p>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">MOVING TO PORTFOLIO</a>
         </div>
       </div>
     </header>
 
-   
+
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -51,6 +59,20 @@
           </div>
         </div>
         <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal0" >
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img\Dashboard APBD\1.png" alt="" style="height:250px; width:100%">
+            </a>
+            <div class="portfolio-caption">
+              <h4>2023 - Tableau</h4>
+              <p class="text-muted">Dashboard APBD Indonesia</p>
+            </div>
+          </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1" >
               <div class="portfolio-hover">
@@ -108,7 +130,7 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://twitter.com/KanekoFaizal">
+                <a href="https://twitter.com/iz_all_">
                   <i class="fa fa-twitter"></i>
                 </a>
               </li>
@@ -133,6 +155,52 @@
     <!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Dashboard APBD Indonesia</h2>
+                  <p class="item-intro text-muted">Tableau Dashboard</p>
+                  <p>The dashboard is made to facilitate users to see the usage of our state budget. Developed using tableau and data obtained directly from the djp website.</p>
+                  <p>URL Dashboar : <a href= "https://public.tableau.com/views/DashboardAPBDIndonesia/Preview?:language=en-US&:display_count=n&:origin=viz_share_link">
+                     https://public.tableau.com/views/DashboardAPBDIndonesia/Preview?:language=en-US&:display_count=n&:origin=viz_share_link</a>
+                  </p>
+                  <div class="row" style="margin:0 auto;">
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <img class="img-fluid" src="img\Dashboard APBD\1.png" alt="" style="margin:10px">
+                    </div>
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <img class="img-fluid" src="img\Dashboard APBD\2.png" alt="" style="margin:10px">
+                    </div>
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <img class="img-fluid" src="img\Dashboard APBD\3.png" alt="" style="margin:10px">
+                    </div>
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <img class="img-fluid" src="img\Dashboard APBD\4.png" alt="" style="margin:10px">
+                    </div>
+                </div>
+                <br>
+                <br>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -148,7 +216,7 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Analisis Perhitungan Nilai QoS</h2>
                   <p class="item-intro text-muted">as Programmer</p>
-                  
+
                   <p>The purpose of this application is made, to help me in doing the calculation of the Quality of Service a computer network and analyze the needs of a network. This application was developed using visual studio 2015 with C # programming language. This application can visualize data monitoring results of a network activity with the help of tshark tool.</p>
                   <div class="row" style="margin:0 auto;">
                     <div class="col-md-6 col-sm-6 portfolio-item">
@@ -196,10 +264,10 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Manuscript dalam Aplikasi (Mandala)</h2>
                   <p class="item-intro text-muted">as Programmer</p>
-                  
-                    
+
+
                   <p>Mandala is an ancient Sundanese manuscript image directory application, with features for visualize ancient Sundanese manuscripts, non-script image galleries, scientific papers related to Ciburuy's site research, games, transliteration, indexation, and search engines. This desktop application is a form of cultural preservation devoted to the existing script in Ciburuy site. This application was developed using visual studio 2015 with C # programming language</p>
-                    
+
                  <div class="row" >
                     <div class="col-md-12 col-sm-6  portfolio-item">
                         <img class="img-fluid" src="img\ciburuy\1.png" alt="" style="margin: 10px">
@@ -236,7 +304,7 @@
                     <div class="col-md-6 col-sm-6 portfolio-item">
                         <img class="img-fluid" src="img\ciburuy\8.png" alt="" style="margin:10px">
                     </div>
-                </div>  
+                </div>
                     <br>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -295,8 +363,8 @@
                         <img class="img-fluid" src="img\LIFH\7.png" alt="" style="margin:10px">
                     </div>
                 </div>
-                  
-               
+
+
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -308,7 +376,7 @@
       </div>
     </div>
 
-    
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
